@@ -1,0 +1,55 @@
+Page 1 - LOGIN PAGE
+
+TEXT BOX
+Welcome
+Enter username
+
+EDIT TEXT
+Username  = ID number
+
+Authentication
+password = Unique device ID
+
+BUTTON
+Login button
+
+
+Toast
+Access granted/ denied
+*Wrong id number
+*access granted = next activity
+
+Page 2 - NAVIGATION PAGE
+
+BUTTON
+1. Door Access
+-communicate with database
+TOAST
+-"You are assigned to room ***"
+2. Live Streaming - PAGE 3
+-open new activity
+-list of possible IP Cameras
+-show using WebView
+3.Requirements - PAGE 4
+-Full Text page
+-ListView of requirements for room reservation
+4.Equipment Reservation - PAGE 5
+-fill up form for equipment reservation
+-save into text file
+-send to admin via server/email
+-with notification
+
+PAGE 3 - LIVE STREAM
+WebView
+Back button - page 2
+
+PAGE 4 - REQUIREMENTS
+ListView
+Back button - page 2
+
+PAGE 5 - EQUIPMENT
+TextView
+EditText
+Button
+Back button - page 2
+
